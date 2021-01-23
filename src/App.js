@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MidBar from "./components/MidBar/MidBar";
+import StatusBar from "./components/statusBar/StatusBar";
+import TabBar from "./components/TabBar/TabBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container">
+        <StatusBar brand="Campaign Management" />
+      </div>
+      <div className="page-container">
+        <MidBar />
+        <TabBar />
+      </div>
+    </>
   );
 }
 

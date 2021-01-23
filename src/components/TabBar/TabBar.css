@@ -1,0 +1,40 @@
+ li {
+    list-style-type: none;
+  }
+  
+ li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .tab-container {
+      width: 100%;
+      border-bottom: 1px solid gray;
+      height: 40px;
+
+  }
+
+  .tab-container ul {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      position: relative;
+
+  }
+
+  .tab-container a {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      position: absolute;
+  }
+
+  .active {
+      color: blue;
+      border-bottom: 1px solid blue;
+  }

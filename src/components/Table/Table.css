@@ -1,0 +1,70 @@
+table {
+    width: 100%;
+    text-align: left;
+    border-radius: 5px;
+    border: 0.5px solid rgb(197, 197, 197);
+    border-collapse: collapse;
+}
+
+.table {
+    padding: 30px 30px;
+}
+
+.table-head, .table-head th{
+    background-color: rgb(197, 197, 197);
+    padding: 10px;
+}
+
+.separator {
+    border: 0.5px solid rgb(197, 197, 197);
+    height: 0.5px;
+    width: 100%;
+}
+
+tr td {
+    padding: 10px;
+}
+
+tr:not(:first-child) {
+    border: solid 0.5px rgb(197, 197, 197);
+    border-radius: 5px;
+}
+
+tr:last-child {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+tr:last-child a {
+    text-decoration: none;
+    padding:3px 5px;
+    margin: 5px;
+}
+
+a{
+    color: black;
+}
+
+.btn-small {
+   color: black;
+}
+
+.active-button {
+    border: 1px solid dodgerblue;
+    border-radius: 2px;
+    padding: 0 5px;
+    color: dodgerblue;
+}
+
+.action {
+    color: dodgerblue;
+}
+
+.status {
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px;
+}
+

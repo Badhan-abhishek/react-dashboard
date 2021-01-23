@@ -1,0 +1,46 @@
+.mid-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    color: gray;
+}
+
+.right a{
+    font-size: 14px;
+    background-color: dodgerblue;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.right a:hover{
+    background-color: rgb(0, 128, 255);
+    border: 1px solid darkblue;
+}
+
+.right .input-box {
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    outline: none;
+    width: 300px;
+    /* padding-right: 30px; */
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    outline: 0;
+    background-size: 20px;
+}
+
+.input-box:focus {
+    border: 1px solid dodgerblue;
+}
+
+
+
